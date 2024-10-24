@@ -1,4 +1,4 @@
-nums = [1, 2, 3, 4]
+nums = eval(input("nums:"))
 print(nums)
 Target = int(input("Target:"))
 
@@ -11,3 +11,5 @@ for i in range(len(nums)):
     if nums[i] + nums[k] == Target:
       print([i, k])
       break
+      
+  
